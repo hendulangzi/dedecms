@@ -49,4 +49,14 @@
 	{dede:prenext get='next'/}
 	//分页内容
 	{dede:pagelist listitem="index,end,pre,next,pageno" listsize="5"/}
+	
+	//分类列表
+	 {dede:channel typeid='4' row='99' currentstyle=" <dt class="oneClassT oneClassTopen"> <span href='~typelink~' ~rel~>~typename~</span></dt>"}
+                  <dt> 
+                   <div class="oneClassTinner"> 
+                    <a href="[field:typeurl/]"> <code class="open"></code> <span> [field:typename/] </span> </a> 
+                   </div> 
+                  </dt>
+	{/dede:channel}	
+
 
