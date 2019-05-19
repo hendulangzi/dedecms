@@ -19,6 +19,7 @@
 	{dede:field.title/}
 	//文章内容
 	 {dede:field.body/}
+	 {dede:field.content/}
 	 //时间转换
 	 [field:pubdate function='strftime("%m-%d",@me)'/]
 	 
