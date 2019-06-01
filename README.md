@@ -27,6 +27,7 @@
 	 {dede:list pagesize='10'}
 	  <li> 
 	   <div class="inner"> 
+	   <img src="[field:litpic/]" style="display: block;">
 		<span class="text-list-a"> <code></code><a href="[field:arcurl/]" title="[field:title/]">[field:title/]</a> </span> 
 		<span class="text-list-times">[field:pubdate function="GetDateTimeMK(@me)"/]</span> 
 	   </div></li> 
@@ -36,6 +37,7 @@
 	 {dede:arclist orderby=pubdate typeid=10 row=15}
              <li>
               <div class="inner">
+	      <img src="[field:litpic/]" style="display: block;">
                 <span class="text-list-times">[field:pubdate function="MyDate('Y-m-d',@me)"/]</span>
                <span class="text-list-a">
                  <code></code><a class=""  href="[field:arcurl/]"   title="[field:title/]">[field:title/]</a>
