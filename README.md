@@ -64,4 +64,6 @@
 	当前栏目typeid
 	{dede:field.typeid/}
 
+	验证码
+	../include/vdimgck.php
 
