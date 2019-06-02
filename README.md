@@ -64,6 +64,7 @@
 	当前栏目typeid
 	{dede:field.typeid/}
 
-	验证码
-	../include/vdimgck.php
-
+	验证码 退出：/member/index_do.php?fmdo=login&dopost=exit#
+	"../include/vdimgck.php"
+	
+	
