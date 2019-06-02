@@ -63,8 +63,9 @@
 	
 	当前栏目typeid
 	{dede:field.typeid/}
+	
 
-	验证码 退出：/member/index_do.php?fmdo=login&dopost=exit#
+	验证码 退出：/member/index_do.php?fmdo=login&dopost=exit# 登陆：/member/index_do.php
 	"../include/vdimgck.php"
 	
 	
