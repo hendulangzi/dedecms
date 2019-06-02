@@ -60,5 +60,8 @@
                    </div> 
                   </dt>
 	{/dede:channel}	
+	
+	当前栏目typeid
+	{dede:field.typeid/}
 
 
